@@ -1,0 +1,28 @@
+.itinerary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  &__title {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    margin: 0;
+    font-size: 1.375rem;
+    font-weight: 700;
+    border-bottom: 2px solid $black;
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__item {
+    padding: 15px 0;
+    margin: 15px 0;
+    font-size: 1.25rem;
+    background: $gray-100;
+  }
+}

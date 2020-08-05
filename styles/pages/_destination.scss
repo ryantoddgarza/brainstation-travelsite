@@ -1,0 +1,33 @@
+.destination {
+
+  & section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__page-heading {
+    position: relative;
+    left: 20px;
+    width: fit-content;
+    margin: 1.5rem 0;
+    font-size: 3.25rem;
+    color: $white;
+    @media (min-width: 900px) {
+      left: 60px;
+      font-size: 5.25rem;
+    }
+  }
+
+  &--hawaii {
+    background-image: url("../assets/hawaii.jpg");
+  }
+
+  &--iceland {
+    background-image: url("../assets/iceland.jpg");
+  }
+
+  &--greece {
+    background-image: url("../assets/greece.jpg");
+  }
+}
